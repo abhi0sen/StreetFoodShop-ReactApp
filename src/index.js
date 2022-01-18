@@ -1,23 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import Heading from './components/Heading';
-import Count from './components/Count';
-import CountComponent from './components/countcClass';
-import Loop from './components/loop';
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Heading from './components/Heading';
+import ProductList from './components/pages/ProductList'
+import ProductDetails from './components/pages/ProductDetails'
+import Cart from './components/pages/Cart'
 
 
 
 ReactDOM.render(
-  <div>
-    <heading title = "Hello Props"></heading>
-    <Count initialValue = {5} />
-    <hr />
-  <CountComponent  initialValue = {10} />
-  <Loop />
-  </div>,
-  document.getElementById('root')
+
+  <BrowserRouter>
+  <Routes>
+    <Route path="/" element = {<Heading title = "Hello" />} />
+    <Route path="/products-List" element = {<ProductList />} />
+    <Route path="/products-details" element = {<ProductDetails />} />
+    <Route path="/cart" element = {<Cart />} />
+    </Routes>
+    </BrowserRouter>,
+  document.getElementById('react-learn')
 
 );
 
