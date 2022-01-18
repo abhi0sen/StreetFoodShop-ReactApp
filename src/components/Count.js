@@ -11,13 +11,13 @@ const Count = function (props){
     useEffect(function ()
     {
         console.log('update Happened - useeffect');
-    })
+    });
 // const isEven = count%2 ===0;
 
     return (
-        <div>
+        <div style={{background: "#eee"}}>
 
-        <p>Functional based componenets</p>
+        <p>Functional based componenets: {count}</p>
         <p>Count: {count}</p>
         <button onClick={function(){
             setCount(count+1);
@@ -30,12 +30,13 @@ const Count = function (props){
 
         <div>
             {count % 2 !== 0 && (
-            <div style={{margin: "20px", height: "100px", width: "100px", backgroundColor:"red"}}></div>
+            <div id="red" style={{margin: "20px", height: "100px", width: "100px", backgroundColor:"red"}}></div>
             )}
             {count % 2 === 0 && (
             <div style={{margin: "20px", height: "100px", width: "100px", backgroundColor:"blue"}}></div>
             )}
         </div>
+        <hr />
 
                 <button onClick={function(){
                     setShow(!show);
@@ -45,10 +46,9 @@ const Count = function (props){
                 {
                     show && (
                         <div>
-                            <CountComponent initialValue ={count}/>
+                            <CountComponent initialValue ={count} />
                         </div>
-                    )
-                }
+                    )}
 
         </div>
     );

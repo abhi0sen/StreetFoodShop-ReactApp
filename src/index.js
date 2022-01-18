@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import Heading from './components/Heading';
+import Heading from './components/Heading';
 import Count from './components/Count';
 import CountComponent from './components/countcClass';
 import Loop from './components/loop';
@@ -11,13 +11,13 @@ import Loop from './components/loop';
 
 ReactDOM.render(
   <div>
-    <heading title = "Hello Props"></heading>
+    <Heading title = "Hello Props" />
     <Count initialValue = {5} />
     <hr />
   <CountComponent  initialValue = {10} />
   <Loop />
   </div>,
-  document.getElementById('root')
+  document.getElementById('react-learn')
 
 );
 
