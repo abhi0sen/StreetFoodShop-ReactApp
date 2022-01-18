@@ -7,7 +7,7 @@ class CountComponent extends Component {
         this.state = {
             count: props.initialValue,
         };
-        this.text
+        // this.text
     }
 
     increaseCount() {
@@ -30,11 +30,11 @@ class CountComponent extends Component {
                 <button onClick={() => this.increaseCount()}>Increase</button>
                 <button onClick={() => this.decreaseCount()}>Decrease</button>
                 <div>
-            {this.count % 2 !== 0 && (
+            {this.state.count % 2 !== 0 && (
             <div style={{margin: "20px", height: "100px", width: "100px", backgroundColor:"red"}}></div>
             )}
-            {this.count % 2 === 0 && (
-            <div style={{margin: "20px", height: "100px", width: "100px", backgroundColor:"blue"}}></div>
+            {this.state.count % 2 === 0 && (
+            <div style={{margin: "20px", height: "100px", width: "100px", backgroundColor:"cyan"}}></div>
             )}
         </div>
         <div>
@@ -42,11 +42,11 @@ class CountComponent extends Component {
                 event.preventDefault();
                 const count = this.state.text.split(" ").length;
                 this.setState({
-                    numberofWords: count,
+                    numberOfWords: count,
                 });
             }}>
 
-                <input type={"text"} name="sentence" onChange={
+                <input type="text" name="sentence" onChange={
                     (event) => {
                         this.setState({
                         text: event.target.value,
@@ -64,7 +64,7 @@ class CountComponent extends Component {
                     }
                 }>submit</button>
             </form>
-            <p>Number of Words</p>
+            <p>Number of Words: (this.state.numberOfWords)</p>
         </div>
             </div>
         )

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 // import Heading from './components/Heading';
 import Count from './components/Count';
 import CountComponent from './components/countcClass';
-import Loop from './components/look';
+import Loop from './components/loop';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
