@@ -1,6 +1,6 @@
 const CartPage = () => (
     <div>
-        <h1>Cart PAge</h1>
+        <h1>Cart Page</h1>
     </div>
 );
 
