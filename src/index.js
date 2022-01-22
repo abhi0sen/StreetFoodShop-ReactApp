@@ -20,5 +20,3 @@ ReactDom.render(
     </BrowserRouter>,
   document.getElementById('root')
 );
-
-
