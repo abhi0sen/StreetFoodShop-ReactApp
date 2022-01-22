@@ -28,6 +28,10 @@ class ProductList extends Component{
         });
     }
 
+addToCart(index){
+    const {productList} = this.state;
+}
+
     render(){
         const {productsList, loading, productsAddedToCart} = this.state;
         return(
