@@ -15,10 +15,10 @@ const Navbar = function(){
             <a href="#"><li>Contact</li></a>
         </ul>
         </div>
-        <div className="search">
+        {/* <div className="search">
             <input type="text" placeholder="Search Shop" />
             <button type="submit">Search</button>
-        </div>
+        </div> */}
         </div>
     </div>
     );

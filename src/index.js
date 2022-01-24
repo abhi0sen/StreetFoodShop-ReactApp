@@ -4,11 +4,16 @@ import ReactDom from 'react-dom';
 // import Heading from './components/Heading';
 import Navbar from './components/Navigation/Navbar';
 import Search from './components/Views/Search';
+import Option from './components/front-page/homePageButton'
+import Copyright from './components/copyright';
+
 
 ReactDom.render(
   <div>
     <Navbar />
     <Search />
-    </div>,
-    document.getElementById("food-shop")
+    <Option />
+    <Copyright />
+  </div>,
+  document.getElementById("food-shop")
 );

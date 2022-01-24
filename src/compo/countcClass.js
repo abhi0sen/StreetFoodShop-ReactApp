@@ -79,7 +79,7 @@ class CountComponent extends Component {
                     (event)=>{
                         const count = this.state.text.split(" ").length;
                         this.setState({
-                            numberofWords: count,
+                            numberOfWords: count,
                         })
                     }
                 }>submit</button>
