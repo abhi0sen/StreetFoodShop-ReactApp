@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    /* padding-top: 0; */
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.navlist{
+    display: flex;
+    
+}
+
+.navlist li{
+    margin-top: 10px;
+    list-style: none;
+    padding: 10px;
+    padding-right: 20px;
+    
+}
+
+.navlist li:hover{
+    background-color: rgb(145, 100, 100);
+}
+.maindiv{
+    display: flex;
+    background-color: bisque;
+}
+.navHead h1{
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.search{
+    position: absolute;
+    right: 30px;
+    margin-top: 3px;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.search button{
+    margin-top: 10px;
+    margin-left: 500px;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 10%;
+}
+
+.search input {
+    border: grey solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
