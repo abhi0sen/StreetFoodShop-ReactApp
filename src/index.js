@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 // import Heading from './components/Heading';
+import './index.css' ;
 import Navbar from './components/Navigation/Navbar';
 import Search from './components/Views/Search';
 import Option from './components/front-page/homePageButton'
