@@ -1,7 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {Component} from "react";
-import "./navbar.css";
-import Router from 'router';
+// import "./navbar.css";
+
+// import {Link} from 'react-router-dom';
+
+// import Router from 'router';
 // import Heading from "../Heading";
 // const Navbar = function(){
 //     return (
@@ -31,13 +34,12 @@ import Router from 'router';
 class Navbar extends Component {
     render() {
         return (
-        <div className='container bg-secondary justify-content-center text-light p-2 text-center'>
+        <div className='container bg-secondary justify-content-center text-light py-2 text-center'>
             <div>
             <h1>Food Shop</h1>
-            <link to={"../Pages/Contact"}>
-                    <li>Dashboard</li>
-                </link>
-            
+            {/* <Link to={"../Pages/Contact"}>
+                    <p>Dashboard</p>
+                </Link> */}
             </div>
         </div>
         );
