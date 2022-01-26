@@ -1,22 +1,27 @@
 // import { render } from '@testing-library/react';
 import React from 'react';
 import ReactDom from 'react-dom';
+import FrontPage from './components/front-page';
 // import Heading from './components/Heading';
-import './index.css' ;
-import Navbar from './components/Navigation/Navbar';
-import Search from './components/Views/Search';
-import Option from './components/front-page/homePageButton'
-import Copyright from './components/copyright';
-import Banner from './components/Views/wait';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Contact from './components/Pages/Contact';
+// import { Route } from 'react-router-dom';
 
+// import 'react-bootstrap';
 
 ReactDom.render(
   <div>
-    <Navbar />
-    <Search />
-    <Banner />
-    <Option />
-    <Copyright />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<FrontPage />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/product-details" element={<FrontPage />}>
+        <Route path=":productId" element={<FrontPage />} />
+      </Route>
+      <Route path="/cart" element={<FrontPage />} />
+    </Routes>
+  </BrowserRouter>
+    {/* <FrontPage /> */}
   </div>,
   document.getElementById("food-shop")
 );
