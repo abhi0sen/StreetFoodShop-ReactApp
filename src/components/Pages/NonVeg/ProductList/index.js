@@ -1,14 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from "react";
 // import Navbar from "./component/Navbar";
 // import SearchFilter from "./component/SearchFilter";
 // import ProductListing from "./component/ProductListing";
 import prod from './products.json';
-// import './style.css';
+import './style.css';
 
 
-
-class Veg extends Component {
+class NonVeg extends Component {
 
     constructor() {
         super();
@@ -45,11 +43,11 @@ class Veg extends Component {
                 {/* <Navbar count={productsAddedToCart.length} /> */}
                 {/* <SearchFilter /> */}
                 {prod && prod.map(({ id, title, location, image }) => (
-                    <div className="shop mx-auto" key={id}>
-                        <button className="btn btn-outline-secondary">
-                            <p className='p-3 fs-2'>{title}</p>
+                    <div className="shop" key={id}>
+                        <button>
+                            <p>{title}</p>
                             <img className="img" src={image} alt="photos" />
-                            <em><p className='p-3 fs-5'>{location}</p></em>
+                            <em>{location}</em>
                         </button>
                     </div>
                 ))}
@@ -59,4 +57,4 @@ class Veg extends Component {
     }
 }
 
-export default Veg;
+export default NonVeg;
