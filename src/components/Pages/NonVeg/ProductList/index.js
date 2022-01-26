@@ -4,6 +4,7 @@ import React, { Component } from "react";
 // import ProductListing from "./component/ProductListing";
 import prod from './products.json';
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class NonVeg extends Component {
@@ -46,7 +47,7 @@ class NonVeg extends Component {
                     <div className="shop" key={id}>
                         <button>
                             <p>{title}</p>
-                            <img className="img" src={image} alt="photos" />
+                            <img className="container" src={image} alt="photos" />
                             <em>{location}</em>
                         </button>
                     </div>
