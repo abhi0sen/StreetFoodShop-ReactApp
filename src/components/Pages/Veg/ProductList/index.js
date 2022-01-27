@@ -4,6 +4,7 @@ import prod from './products.json';
 // import './style.css';
 // import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import Navbar from '../../../commons/Navbar';
 
 
 class Veg extends Component {
@@ -49,12 +50,13 @@ class Veg extends Component {
 //   </BrowserRouter>
         return (
             <div>
+                <Navbar />
                 {/* <Navbar count={productsAddedToCart.length} /> */}
                 {/* <SearchFilter /> */}
                 {prod && prod.map(({ id, title, location, image }) => (
-                    <div className="container col-sm-12 mb-1 mx-auto" key={id}>
-                         <Link to={'/veg/${id}'}>
-                        <button className="btn btn-outline-secondary">
+                    <div className="container col-6 my-1" key={id}>
+                         <Link to={'/vegitemlist'}>
+                        <button className="btn col-sm-12 btn-outline-secondary">
                             <p className='p-3 fs-2'>{title}</p>
                             <img className="w-100" src={image} alt="photos" />
                             <p className='p-3 fs-5'>Location : <em className="text-decoration-underline">{location}</em></p>

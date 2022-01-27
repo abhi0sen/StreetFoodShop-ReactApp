@@ -1,10 +1,16 @@
 
 .shop{
-    margin: 5px;
+    /* margin: 5px; */
     /* list-style: none; */
-    padding: 5px;
-    padding-bottom: 20px;
+    /* padding: 5px; */
+    /* padding-bottom: 20px; */
     /* display: flex; */
     /* display: inline; */
-    width: 200px;
+    /* width: 300px; */
+    height: 500px;
+}
+
+.height{
+    height: 40%;
+    /* width: 90%; */
 }

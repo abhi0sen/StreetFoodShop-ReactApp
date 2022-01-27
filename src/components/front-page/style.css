@@ -1,0 +1,18 @@
+.cartCount{
+    position: absolute;
+    top: -3px;
+    right: 5px;
+}
+
+/* .search{
+    /* width: 90%; 
+} */
+
+.image{
+    position: absolute;
+    right: 10px;
+    padding-right: 9px;
+    padding-top: 4px;
+    margin-top: 0px;
+    /* width: 15%; */
+}

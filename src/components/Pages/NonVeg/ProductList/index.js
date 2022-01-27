@@ -4,17 +4,19 @@ import React, { Component } from "react";
 // import ProductListing from "./component/ProductListing";
 import prod from './products.json';
 import './style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Search from '../../../front-page/Search.js';
+import Navbar from '../../../commons/Navbar';
+import { Link } from "react-router-dom";
+// import ProductListing from "../ProductListing";
 
 class NonVeg extends Component {
-
     constructor() {
         super();
         this.state = {
             ProductList: [],
             loading: true,
-            productsAddedToCart: [],
+            // productsAddedToCart: [],
+            // shopid: 0,
         };
     }
 
@@ -29,27 +31,41 @@ class NonVeg extends Component {
         this.setState({
             loading: false,
             productsList: data,
+            // shopid: 0
         });
     }
-
-    // addToCart(index) {
-    //     const { productList } = this.state;
+    // componentDidMount(){
+        
+    //     // const data = {prod}.json();
+    //     // this.setState({
+    //     //     productsList: data,
+    //     // });
+    //     console.log("productsList");
     // }
 
     render() {
-        // const { productsList, loading, productsAddedToCart } = this.state;
-        const { loading} = this.state;
+        const { productsList, loading, productsAddedToCart } = this.state;
+        // const { loading} = this.state;
+        // const 
+        // const {  } = useParams();
+//         <BrowserRouter>
+//     <Routes>
+//       <Route path="/veg/shopDetail" element={<ProductDetails />} />
+//     </Routes>
+//   </BrowserRouter>
         return (
             <div>
-                {/* <Navbar count={productsAddedToCart.length} /> */}
+                <Navbar />
                 {/* <SearchFilter /> */}
                 {prod && prod.map(({ id, title, location, image }) => (
-                    <div className="container col-sm-12 mb-1 mx-auto" key={id}>
-                        <button className="btn btn-outline-secondary">
+                    <div className="container col-3 d-inline-block m-3 mx-auto" key={id}>
+                         <Link to={'/nonvegitemlist'}>
+                        <button className="shop col-sm-12 btn btn-outline-secondary">
                             <p className='p-3 fs-2'>{title}</p>
-                            <img className="w-100" src={image} alt="photos" />
-                            <p className='p-3 fs-5'>Location: <em className="text-decoration-underline">{location}</em></p>
+                            <img className="col-sm-12 w-100 height" src={image} alt="photos" />
+                            <p className='p-3 fs-5'>Location : <em className="text-decoration-underline">{location}</em></p>
                         </button>
+                        </Link>
                     </div>
                 ))}
                 {loading && <p>Products are loading.. Please Wait..</p>}
