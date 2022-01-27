@@ -8,16 +8,13 @@ const Option = function (){
         <div className='w-100'>
         <Link to={"/veg"}>
       <div>
-        {/* <div className="cart-count">{props.count}</div> */}
         <button className='btn btn-outline-secondary col-11 p-3 py-5'>Veg</button>
       </div>
     </Link>
     </div>
-
           <div className="w-100">  
         <Link to={"/nonveg"}>
       <div >
-        {/* <div className="cart-count">{props.count}</div> */}
         <button className='btn btn-outline-secondary col-11 p-3 py-5'>NonVeg</button>
       </div>
     </Link>

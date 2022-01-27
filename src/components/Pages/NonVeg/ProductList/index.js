@@ -44,11 +44,11 @@ class NonVeg extends Component {
                 {/* <Navbar count={productsAddedToCart.length} /> */}
                 {/* <SearchFilter /> */}
                 {prod && prod.map(({ id, title, location, image }) => (
-                    <div className="shop" key={id}>
-                        <button>
-                            <p>{title}</p>
-                            <img className="container" src={image} alt="photos" />
-                            <em>{location}</em>
+                    <div className="container col-sm-12 mb-1 mx-auto" key={id}>
+                        <button className="btn btn-outline-secondary">
+                            <p className='p-3 fs-2'>{title}</p>
+                            <img className="w-100" src={image} alt="photos" />
+                            <p className='p-3 fs-5'>Location: <em className="text-decoration-underline">{location}</em></p>
                         </button>
                     </div>
                 ))}

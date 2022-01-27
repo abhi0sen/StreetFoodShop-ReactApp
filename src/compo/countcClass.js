@@ -84,11 +84,12 @@ class CountComponent extends Component {
                     }
                 }>submit</button>
             </form>
-            <p>Number of Words: (this.state.numberOfWords)</p>
+            <p>Number of Words: {this.state.numberOfWords}</p>
         </div>
             </div>
         )
     }
 }
 
+export {count};
 export default CountComponent;
