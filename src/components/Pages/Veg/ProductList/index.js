@@ -19,20 +19,20 @@ class Veg extends Component {
         };
     }
 
-    componentDidMount() {
-        this.getProducts();
-    }
+    // componentDidMount() {
+    //     this.getProducts();
+    // }
 
-    async getProducts() {
-        const response = await fetch({ prod })
-        const data = await response.json();
+    // async getProducts() {
+    //     const response = await fetch({ prod })
+    //     const data = await response.json();
 
-        this.setState({
-            loading: false,
-            productsList: data,
-            // shopid: 0
-        });
-    }
+    //     this.setState({
+    //         loading: false,
+    //         productsList: data,
+    //         // shopid: 0
+    //     });
+    // }
 
     // addToCart(index) {
     //     const { productList } = this.state;

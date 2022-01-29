@@ -8,7 +8,7 @@ const Banner = function(){
             <img className='w-100' src={img} alt="Food Banner" />
         </div>
         <div className='my-2 border p-2 position-absolute pos text-dark'>
-            <h3 className='mx-5'>Street Shops in Ujjain</h3>
+            <h3 className='mx-5 text-primary'>Street Shops in Ujjain</h3>
         </div>
         </div>
     );

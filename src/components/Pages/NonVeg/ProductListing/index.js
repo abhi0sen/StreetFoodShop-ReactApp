@@ -2,7 +2,6 @@
 import React, { Component } from "react";
 import Navbar from "../../../commons/Navbar";
 import Search from "../../../front-page/Search";
-// import ProductCard from "./card";
 import food from './products.json';
 // import './style.css';
 
@@ -11,9 +10,24 @@ class ProductListing extends Component {
         super();
         this.state = ({
             productsList: {food},
-            // loading: true,
+            loading: true,
             productsAddedToCart: [],
             //count : 0,
+        });
+    }
+
+      componentDidMount() {
+        this.getProducts();
+    }
+
+    async getProducts() {
+        const response = await fetch({ food })
+        const data = await response.json();
+
+        this.setState({
+            loading: false,
+            productsList: data,
+            // shopid: 0
         });
     }
 
