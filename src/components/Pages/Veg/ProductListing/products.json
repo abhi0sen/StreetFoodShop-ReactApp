@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "FoodType" : "Matar Kulche",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwnQplRX9hRS7-rJZ4XediMFOjiuyidY3r4npxN6zBncIzFvJ-38s_DI0-JsEuczkBSto&usqp=CAU"
+    },
+    {
+        "id": 2,
+        "FoodType" : "Samose",
+        "image" : "https://cdn.pixabay.com/photo/2019/04/12/07/15/samose-4121461_960_720.jpg"
+    },
+    {
+        "id": 3,
+        "FoodType" : "Paani Puri",
+        "image" : "https://static.toiimg.com/thumb/61048461.cms?imgsize=1981854&width=800&height=800"
+    },
+    {
+        "id": 4,
+        "FoodType" : "Chole Tikiya",
+        "image" : "https://www.archanaskitchen.com/images/archanaskitchen/Indian_Street_Food/Chole_Aloo_Tikki_Chaat_Recipe_An_Indian_Street_Food_Favorite-1.jpg"
+    },
+    {
+        "id": 5,
+        "FoodType" : "Pakode",
+        "image" : "https://zaykarecipes.com/wp-content/uploads/2019/08/Aloo-Moong-dal-ke-pakode.jpg"
+    },
+    {
+        "id": 6,
+        "FoodType" : "Pohe",
+        "image" : "https://www.theloveofspice.com/wp-content/uploads/2019/01/kanda-poha-recipe.jpg"
+    },
+    {
+        "id": 7,
+        "FoodType" : "momo",
+        "image" : "https://cdn.foodaciously.com/static/recipes/ee9fd204-25cf-4e97-be5a-d7626470d420/easy-vegan-momos-recipe-7ab341154a5c13d6d9642300e7e2c92d-2560.jpg"
+    },
+    {
+        "id": 8,
+        "FoodType" : "Dahi Puri",
+        "image" : "https://www.whiskaffair.com/wp-content/uploads/2019/05/Dahi-Puri-2-3.jpg"
+    },
+    {
+        "id": 9,
+        "FoodType" : "Chole-Bhatoore",
+        "image" : "https://www.myweekendkitchen.in/wp-content/uploads/2011/07/bhature_recipe_Indian_puffed_bread.jpg"
+    },
+    {
+        "id": 10,
+        "FoodType" : "Chai",
+        "image" : "https://static.toiimg.com/thumb/74331975.cms?imgsize=1163752&width=800&height=800"
+    },
+    {
+        "id": 11,
+        "FoodType" : "Dosa",
+        "image" : "https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa-500x500.jpg"
+    },
+    {
+        "id": 12,
+        "FoodType" : "Burger",
+        "image" : "https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/burger-recipe-1-500x375.jpg"
+    }
+    
+]

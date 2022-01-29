@@ -4,27 +4,20 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import FrontPage from './components/front-page';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Contact from './components/Pages/Contact';
 import Veg from './components/Pages/Veg/ProductList';
-// import ProductDetails from './components/Pages/Veg/ProductDetails';
 import NonVeg from './components/Pages/NonVeg/ProductList';
-import ProductListing from './components/Pages/NonVeg/ProductListing';
-// import Product from './components/Pages/Veg/Product';
-
+import NonVegItemList from './components/Pages/NonVeg/ProductListing';
+import VegItemList from './components/Pages/Veg/ProductListing';
 
 ReactDom.render(
   <div>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<FrontPage />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/nonveg" element={<NonVeg />} >
-          </Route>
-          <Route path="/nonvegitemlist" element={<ProductListing />} />
+        <Route path="/nonveg" element={<NonVeg />} />
+        <Route path="/nonvegitemlist" element={<NonVegItemList />} />
         <Route path="/veg" element={<Veg />} />
-          {/* <Route path="/vegitemlist" element={<Veg />} />
-        </Route> */}
-        {/* <Route path="/cart" element={<Product />} /> */}
+        <Route path="/vegitemlist" element={<VegItemList />} />
       </Routes>
     </BrowserRouter>
     {/* <FrontPage /> */}

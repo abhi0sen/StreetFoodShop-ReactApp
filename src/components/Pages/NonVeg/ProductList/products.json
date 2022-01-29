@@ -3,37 +3,20 @@
         "id": 1,
         "title": "Tasty Food Corner",
         "location" : "Tarantaal",
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-        "category": "men's clothing",
-        "image": "https://content3.jdmagicbox.com/comp/delhi/t2/011pxx11.xx11.181125135239.m6t2/catalogue/tasty-food-corner-patparganj-delhi-tandoori-restaurants-xmwxc9cayd.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 120
-        }
+        "image": "https://content3.jdmagicbox.com/comp/delhi/t2/011pxx11.xx11.181125135239.m6t2/catalogue/tasty-food-corner-patparganj-delhi-tandoori-restaurants-xmwxc9cayd.jpg"
     },
     {
         "id": 2,
         "title": "Raj Ke Non-Veg",
         "location" : "Mini Chopati",
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-        "category": "men's clothing",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ_cf5IXZE8RqWh93MBKED6wacZ5_qT22U9A&usqp=CAU",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-        }
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ_cf5IXZE8RqWh93MBKED6wacZ5_qT22U9A&usqp=CAU"
     },
     {
         "id": 3,
         "title": "BadeMiya",
         "location" : "Freeganj",
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
         "category": "men's clothing",
-        "image": "https://qph.fs.quoracdn.net/main-qimg-9d26b433ee7e5a968432f79325f02a25.webp",
-        "rating": {
-            "rate": 4.7,
-            "count": 500
-        }
+        "image": "https://qph.fs.quoracdn.net/main-qimg-9d26b433ee7e5a968432f79325f02a25.webp"
     },
     {
         "id": 4,

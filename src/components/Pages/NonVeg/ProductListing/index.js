@@ -4,7 +4,7 @@ import Navbar from "../../../commons/Navbar";
 import Search from "../../../front-page/Search";
 import food from './products.json';
 
-class ProductListing extends Component {
+class NonVegItemList extends Component {
     constructor() {
         super();
         this.state = ({
@@ -88,4 +88,4 @@ class ProductListing extends Component {
   );
 };
 }
-export default ProductListing;
+export default NonVegItemList;
