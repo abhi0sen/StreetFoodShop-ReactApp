@@ -13,7 +13,7 @@ class ProductListing extends Component {
             productsList: {food},
             // loading: true,
             productsAddedToCart: [],
-            count : 0,
+            //count : 0,
         });
     }
 
@@ -60,7 +60,7 @@ class ProductListing extends Component {
                             <img className="w-100  col-lg-12" src={image} alt="photos" />
                             <div>count = {count}</div>
                             {count === 0 &&
-                        <button  onClick={(index) => this.addToCart(index)} className="btn btn-outline-secondary m-2 ">
+                        <button  onClick={(index) => console.log( this.addToCart(index))} className="btn btn-outline-secondary m-2 ">
                             Add To Cart
                         </button>
                             }

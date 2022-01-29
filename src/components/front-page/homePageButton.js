@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Option = function (){
         return (
-        <div className='container'>
-        <div className='p-3 text-center d-flex'>
+        <div className='container text-center m-3 p-3'>
           <h1>Choose Your Foody Mood</h1>
+        <div className='p-3 text-center d-flex'>
         <div className='w-100'>
         <Link to={"/veg"}>
       <div>
