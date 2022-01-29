@@ -9,7 +9,7 @@ class ProductListing extends Component {
     constructor() {
         super();
         this.state = ({
-            productsList: {food},
+            productsList: food,
             loading: true,
             productsAddedToCart: [],
             //count : 0,
@@ -68,24 +68,24 @@ class ProductListing extends Component {
 
                 {/* <Search count={this.productsAddedToCart.length} /> */}
                 <Search count = {4} />
-                {food && food.map(({ id, FoodType, image }) => (
+                {food && food.map(({ id, FoodType, image }, index) => (
                     <div className="height my-4 container col-3 m-3 mx-auto text-center" key={id}>                        
                             <p className='p-3 fs-2'>{FoodType}</p>
                             <img className="w-100  col-lg-12" src={image} alt="photos" />
                             <div>count = {count}</div>
                             {count === 0 &&
-                        <button  onClick={(index) => console.log( this.addToCart(index))} className="btn btn-outline-secondary m-2 ">
+                        <button  onClick={() => this.addToCart(index)} className="btn btn-outline-secondary m-2 ">
                             Add To Cart
                         </button>
                             }
                             {count > 0 &&
                             <div>
 
-                        <button  onClick={(index) => this.addToCart(index)} className="btn btn-outline-secondary m-2 ">
+                        <button  onClick={() => this.addToCart(index)} className="btn btn-outline-secondary m-2 ">
                             +
                         </button>
                                 <p>{count}</p>
-                        <button  onClick={(index) => this.removeToCart(index)} className="btn btn-outline-secondary m-2 ">
+                        <button  onClick={() => this.removeToCart(index)} className="btn btn-outline-secondary m-2 ">
                             -
                         </button>
                         </div>
