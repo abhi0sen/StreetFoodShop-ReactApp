@@ -1,4 +1,3 @@
-// import { render } from '@testing-library/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDom from 'react-dom';
@@ -20,7 +19,6 @@ ReactDom.render(
         <Route path="/vegitemlist" element={<VegItemList />} />
       </Routes>
     </BrowserRouter>
-    {/* <FrontPage /> */}
   </div>,
   document.getElementById("food-shop")
 );

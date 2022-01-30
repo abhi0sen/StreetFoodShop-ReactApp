@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import prod from './products.json';
 import './style.css';
 import Search from '../../../front-page/Search.js';

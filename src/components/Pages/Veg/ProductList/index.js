@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from "react";
 import prod from './products.json';
 import './style.css';
-// import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Navbar from '../../../commons/Navbar';
 import Search from '../../../front-page/Search';
