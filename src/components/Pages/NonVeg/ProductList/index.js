@@ -1,13 +1,10 @@
 import React, { Component } from "react";
-// import Navbar from "./component/Navbar";
-// import SearchFilter from "./component/SearchFilter";
-// import ProductListing from "./component/ProductListing";
+
 import prod from './products.json';
 import './style.css';
 import Search from '../../../front-page/Search.js';
 import Navbar from '../../../commons/Navbar';
 import { Link } from "react-router-dom";
-// import ProductListing from "../ProductListing";
 
 class NonVeg extends Component {
     constructor() {
@@ -18,7 +15,8 @@ class NonVeg extends Component {
         return (
             <div>
                 <Navbar />
-                <Search />
+                <Search count={0} />
+                <h1 className="fs-1 text-center p-4">Try Out Some Delicious Today</h1>
                 {prod && prod.map(({ id, title, location, image }) => (
                     <div className="container col-3 height d-inline-block m-3 mx-auto" key={id}>
                          <Link to={'/nonvegitemlist'}>
