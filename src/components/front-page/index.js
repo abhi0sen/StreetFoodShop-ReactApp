@@ -9,7 +9,7 @@ const FrontPage = () => {
     return (
         <div>
             <Navbar />
-            <Search count={0} />
+            <Search />
             <Banner />
             <Option />
             <Copyright />

@@ -14,7 +14,7 @@ class NonVeg extends Component {
         return (
             <div>
                 <Navbar />
-                <Search count={0} />
+                <Search />
                 <h1 className="fs-1 text-center p-4">Try Out Some Delicious Today</h1>
                 {prod && prod.map(({ id, title, location, image }) => (
                     <div className="container col-3 height d-inline-block m-3 mx-auto" key={id}>

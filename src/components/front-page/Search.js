@@ -1,10 +1,10 @@
 const Search = (props) => {
     return (
-        <div className='container-fluid d-flex justify-content-center bg-dark'>
+        <div className='container-fluid d-flex justify-content-center bg-secondary'>
             <div className='search'>
-                <form action="" className='d-inline-block text-center bg-dark py-2'>
-                    <input type="text" placeholder="Enter Your Food" />
-                    <input className='mx-3 text-light btn btn-outline-secondary' type="submit" value="Search" />
+                <form action="" className='d-inline-block text-center py-2'>
+                    <input className="my-2" type="text" placeholder="Search Your Food" onChange={(e) => props.searchHandler(e.target.value)} />
+                    <input className='mx-3 text-light btn btn-outline-dark' type="submit" value="Search" />
                 </form>
             </div>
             <div className='image bg-light'>

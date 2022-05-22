@@ -17,10 +17,10 @@ class Veg extends Component {
         return (
             <div>
                 <Navbar />
-                <Search count={0} />
-                <h1 className="fs-1 text-center p-4">Try Out Some Delicious Today</h1>
+                <Search />
+                <h1 className="text-center p-4">Try Out Some Delicious Today</h1>
                 {prod && prod.map(({ id, title, location, image }) => (
-                    <div className="container col-3 height d-inline-block m-3 mx-auto" key={id}>
+                    <div className="container col-sm-3 height d-inline-block m-3 mx-auto" key={id}>
                          <Link to={'/vegitemlist'}>
                         <button className="shop col-sm-12 btn btn-outline-secondary">
                             <p className='p-3 fs-2'>{title}</p>
@@ -33,6 +33,8 @@ class Veg extends Component {
             </div>);
     }
 }
+
+
 
 // export {shopid};
 export default Veg;

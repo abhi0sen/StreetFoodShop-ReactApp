@@ -31,33 +31,33 @@
     },
     {
         "id": 7,
-        "FoodType" : "momo",
-        "image" : "https://cdn.foodaciously.com/static/recipes/ee9fd204-25cf-4e97-be5a-d7626470d420/easy-vegan-momos-recipe-7ab341154a5c13d6d9642300e7e2c92d-2560.jpg"
+        "FoodType" : "Fish Fry",
+        "image" : "https://tse4.mm.bing.net/th?id=OIP.Ip6SU6rMDZU-0-UZeR9BrQHaHa&pid=Api&P=0&w=157&h=157"
     },
     {
         "id": 8,
-        "FoodType" : "Dahi Puri",
-        "image" : "https://www.whiskaffair.com/wp-content/uploads/2019/05/Dahi-Puri-2-3.jpg"
+        "FoodType" : "Butter Chicken",
+        "image" : "http://feenix.co.in/wp-content/uploads/2018/01/maxresdefault-2-1.jpg"
     },
     {
         "id": 9,
-        "FoodType" : "Chole-Bhatoore",
-        "image" : "https://www.myweekendkitchen.in/wp-content/uploads/2011/07/bhature_recipe_Indian_puffed_bread.jpg"
+        "FoodType" : "Marathi Ruchkar Jevan",
+        "image" : "https://tse2.mm.bing.net/th?id=OIP.o0fVSElJKGDgikZYSfyS9AHaE7&pid=Api&P=0&w=276&h=184"
     },
     {
         "id": 10,
-        "FoodType" : "Chai",
-        "image" : "https://static.toiimg.com/thumb/74331975.cms?imgsize=1163752&width=800&height=800"
+        "FoodType" : "Fish Moilee",
+        "image" : "https://d3aew4oo17ml6.cloudfront.net/images/photos/thumbnailfull/photos-2014-6-4-6-23-36.jpg?v=1.1.0"
     },
     {
         "id": 11,
-        "FoodType" : "Dosa",
-        "image" : "https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa-500x500.jpg"
+        "FoodType" : "Polenta Pie",
+        "image" : "https://i.pinimg.com/originals/75/dd/bb/75ddbbbd04d26edd134742d89da4dee3.jpg"
     },
     {
         "id": 12,
-        "FoodType" : "Burger",
-        "image" : "https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/burger-recipe-1-500x375.jpg"
+        "FoodType" : "Shepherd's Pie",
+        "image" : "http://www.diettaste.com/images/main-dishes/vegetarian-shepherds-pie1-w.jpg"
     }
     
 ]

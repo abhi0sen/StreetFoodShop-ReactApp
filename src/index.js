@@ -7,6 +7,7 @@ import Veg from './components/Pages/Veg/ProductList';
 import NonVeg from './components/Pages/NonVeg/ProductList';
 import NonVegItemList from './components/Pages/NonVeg/ProductListing';
 import VegItemList from './components/Pages/Veg/ProductListing';
+// import VegCartPage from './components/Pages/Veg/cart';
 
 ReactDom.render(
   <div>
@@ -17,6 +18,7 @@ ReactDom.render(
         <Route path="/nonvegitemlist" element={<NonVegItemList />} />
         <Route path="/veg" element={<Veg />} />
         <Route path="/vegitemlist" element={<VegItemList />} />
+        {/* <Route path="/vegcart" element={<VegCartPage />} /> */}
       </Routes>
     </BrowserRouter>
   </div>,

@@ -9,14 +9,14 @@ const Option = function (){
         <div className='w-100'>
         <Link to={"/veg"}>
       <div>
-        <button className='btn btn-outline-danger btn-primary text-light col-8 p-3 py-5'>Veg</button>
+        <button className='btn btn-outline-secondary btn-dark text-light col-8 p-3 py-5'>Veg</button>
       </div>
     </Link>
     </div>
           <div className="w-100">  
         <Link to={"/nonveg"}>
       <div >
-        <button className='btn btn-outline-danger btn-primary text-light col-8 p-3 py-5'>NonVeg</button>
+        <button className='btn btn-outline-secondary btn-dark text-light col-8 p-3 py-5'>NonVeg</button>
       </div>
     </Link>
     </div>

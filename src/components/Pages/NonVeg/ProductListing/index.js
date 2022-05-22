@@ -64,7 +64,7 @@ class NonVegItemList extends Component {
                     <div className="height my-4 container col-3 m-3 mx-auto text-center" key={id}>                        
                             <p className='p-3 fs-2'>{FoodType}</p>
                             <img className="w-100  col-lg-12" src={image} alt="photos" />
-                            <div>count = {count}</div>
+                            {/* <div>count = {count}</div> */}
                             {count === 0 &&
                         <button  onClick={() => this.addToCart(index)} className="btn btn-outline-secondary m-2 ">
                             Add To Cart
